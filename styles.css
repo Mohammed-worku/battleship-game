@@ -1,0 +1,59 @@
+
+body{
+    background: rgb(43, 40, 40);
+ }
+#board {
+    position: relative;
+    /* this(position: relative) has nothing to do with the background image  */
+    width: 1024px;
+    height:863px; 
+    margin: auto;
+    background: url("images/board.jpg");
+    background-repeat: no-repeat;
+    
+ }  
+ /*////////// Notice :we specify the div's width and height and then assign a background image for it like we did in "CSS MY SITE" PROJECT(in that case width and height were 100%(default) and 100vh respectively.) ////////////*/
+
+#messageArea{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    color: rgb(83, 175, 19);
+    background-color:rgb(255, 255, 255);
+    border: 2px solid rgb(0, 128, 0);
+    border-radius: 11%;
+    padding: 10px;
+    
+}
+ table{
+    position: absolute;
+    left: 173px;
+    top: 98px;
+    border-spacing: 0;
+ }
+ td{
+    width: 94px;
+ height: 94px; 
+}
+
+ form{
+    position: absolute; 
+     right: 0;
+    top: 0; 
+    background-color: rgb(83, 175, 19);
+    padding: 15px;  
+
+  } 
+  form input{
+    background-color: rgb(152, 207, 113);
+  border-color: rgb(83, 175, 19);
+   font-size: 1em; 
+ }
+ .hit {
+    background: url("images/ship.png") no-repeat center center;
+   }
+   .miss {
+    background: url("images/miss.png") no-repeat center center;
+   }
+ 
